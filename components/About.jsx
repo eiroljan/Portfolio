@@ -1,7 +1,14 @@
+"use client";
+
 // Animation Components
 import FadeInAnimation from "./animations/FadeInTopAnimation";
 
 export const About = () => {
+  const handleButtonClick = (e) => {
+    e.preventDefault();
+    window.open("/files/Jubet_Aceberos_Resume.pdf", "_blank");
+  };
+
   return (
     <div
       id="about"
@@ -29,7 +36,9 @@ export const About = () => {
                 convenience.
               </p>
 
-              <button className="CustomButton">Resume</button>
+              <button className="CustomButton" onClick={handleButtonClick}>
+                Resume
+              </button>
             </FadeInAnimation>
           </div>
           <div className="lg:w-1/2 flex justify-center">
