@@ -7,7 +7,7 @@ export const Contact = () => {
           backgroundImage: 'url("/images/backgrounds/contactpage.jpg")',
         }}
       >
-        <h1 className="AgrandirHeavy z-10 text-white-700">
+        <h1 className="AgrandirHeavy z-10 text-white-700 text-center">
           I can do all things through him who strengthens me
         </h1>
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50" />

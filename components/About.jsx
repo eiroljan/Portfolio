@@ -1,3 +1,6 @@
+// Animation Components
+import FadeInAnimation from "./animations/FadeInTopAnimation";
+
 export const About = () => {
   return (
     <div
@@ -7,24 +10,27 @@ export const About = () => {
       <div className="p-8 rounded  sm:p-16">
         <div className="flex flex-col items-center gap-20 lg:flex-row">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none AgrandirHeavy">
-              ABOUT ME
-            </h2>
+            <FadeInAnimation>
+              <h2 className="mb-10 font-sans text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none AgrandirHeavy">
+                ABOUT ME
+              </h2>
 
-            <p className="mb-4 text-base AgrandirRegular">
-              Hello there! I'm Jubet Aceberos, a passionate web developer with a
-              knack for turning ideas into reality through the power of code.
-              With a background in React , I thrive on challenges and take pride
-              in crafting interactive, user-friendly, and visually appealing
-              websites.
-            </p>
-            <p className="mb-4 text-base AgrandirRegular">
-              I'm open to Job opportunities where I can contribute, learn and
-              grow. If you have a good opportunity that matches my skills and
-              experience then don't hesitate to contact me.
-            </p>
+              <p className="mb-4 text-base AgrandirRegular">
+                Hello there! I'm Jubet Aceberos, a passionate web developer with
+                a knack for turning ideas into reality through the power of
+                code. I thrive on challenges and take pride in crafting
+                interactive, user-friendly, and visually appealing websites
+              </p>
 
-            <button className="CustomButton">Resume</button>
+              <p className="mb-7 text-base AgrandirRegular">
+                I'm open to job opportunities where I can leverage my skills,
+                learn, and grow. If you have a fitting opportunity that aligns
+                with my skills and experiences, feel free to reach out at your
+                convenience.
+              </p>
+
+              <button className="CustomButton">Resume</button>
+            </FadeInAnimation>
           </div>
           <div className="lg:w-1/2 flex justify-center">
             <img

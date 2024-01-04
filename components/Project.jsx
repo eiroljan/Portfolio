@@ -5,6 +5,9 @@ import { WorksContent } from "@/utils/WorksContent";
 import Link from "next/link";
 import Image from "next/image";
 
+// Animation Components
+import FadeInLeftAnimation from "./animations/FadeInLeftAnimation";
+
 export const Projects = () => {
   return (
     <div id="works">
@@ -17,11 +20,13 @@ export const Projects = () => {
       {WorksContent.map((project) => (
         <div className="flex flex-col justify-between items-center lg:flex-row gap-10 mb-20">
           <div className="mb-6 lg:mb-0	lg:pr-5">
-            <Image
-              className="bg-cover object-center shadow-lg  lg:rounded-r-[50px] lg:w-[741px]"
-              src={project.imageUrl}
-              alt={project.title}
-            />
+            <FadeInLeftAnimation>
+              <Image
+                className="bg-cover object-center shadow-lg  lg:rounded-r-[50px] lg:w-[741px]"
+                src={project.imageUrl}
+                alt={project.title}
+              />
+            </FadeInLeftAnimation>
           </div>
           <div className="lg:w-2/5 mx-10">
             {project.links ? (
