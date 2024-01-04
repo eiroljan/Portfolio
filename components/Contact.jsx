@@ -16,7 +16,7 @@ export const Contact = () => {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-2 lg:py-20">
         <div className="p-8 sm:p-16">
           <h2 className="mb-20 text-center font-sans text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none AgrandirHeavy">
-            Contact Me
+            Contact
           </h2>
           <div className="grid gap-4 items-center row-gap-5 sm:grid-cols-3 lg:grid-cols-3">
             <div className="flex flex-col p-5">

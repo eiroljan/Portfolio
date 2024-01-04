@@ -36,7 +36,7 @@ export const Navigation = () => {
               to="works"
               spy={true}
               smooth={true}
-              offset={100}
+              offset={-20}
               duration={500}
               className="font-medium  cursor-pointer	tracking-wide text-white-700 transition-colors duration-200 hover:text-deep-purple-accent-400 AgrandirRegular"
             >
@@ -48,7 +48,7 @@ export const Navigation = () => {
               to="contact"
               spy={true}
               smooth={true}
-              offset={100}
+              offset={0}
               duration={500}
               className="font-medium  cursor-pointer	tracking-wide text-white-700 transition-colors duration-200 hover:text-deep-purple-accent-400 AgrandirRegular"
             >
