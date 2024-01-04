@@ -24,7 +24,7 @@ export const About = () => {
               experience then don't hesitate to contact me.
             </p>
 
-            <button>Resume</button>
+            <button className="CustomButton">Resume</button>
           </div>
           <div className="lg:w-1/2 flex justify-center">
             <img

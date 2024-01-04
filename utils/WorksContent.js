@@ -12,56 +12,56 @@ export const WorksContent = [
     title: "Ultra Hiring",
     links: "https://ultrahiring.com/",
     description:
-      "I play a pivotal role in enhancing features and shaping the user experience of this revolutionary AI-based hiring app. From adding new functionalities to crafting an engaging landing page, my work focuses on elevating the app's capabilities and ensuring a seamless recruitment process.",
+      "An innovative hiring platform using AI for smarter recruitment. Features a unique interview setup with ChatGPT guidance, automated candidate qualification, and access to a network of top talent with diverse question templates. Streamline your hiring process and make informed decisions effortlessly.",
     stacks: ["Next JS", "Firebase"],
     imageUrl: ultrahiring,
   },
   {
     title: "Secure At Home",
-    links: "https://ultrahiring.com/",
+    links: "https://secureathome.com/",
     description:
-      "As a dedicated contributor to the Secure at Home project, my responsibilities involve spearheading the creation of a brand-new web presence. Tasked with building the website from the ground up, I am incorporating custom features and components that extend beyond the conventional capabilities of standard platforms. By blending innovation with functionality, I aim to craft a user-centric and secure online environment.",
-    stacks: ["Wordpress", "CSS"],
+      "American District Telegraph (ADT) Founder Edward Callahan created a telegraph-based call-box to signal for assistance to a central office. He quickly connected 50 other homes in the neighborhood, creating the first residential security system network.",
+    stacks: ["Wordpress", "Divi Builder"],
     imageUrl: secureathome,
   },
   {
-    title: "Get Frontier",
-    links: "https://ultrahiring.com/",
+    title: "Get Frontier Specials",
+    links: "https://www.frontierspecials.com/",
     description:
-      "I play a pivotal role in revamping the overall design of the website. This involves implementing a fresh and modern aesthetic, ensuring a user-friendly interface, and enhancing the overall experience for visitors. My key responsibilities include translating visual elements into a functional and aesthetically pleasing WordPress environment, contributing to the seamless integration of images, and delivering an upgraded website that aligns with current design standards and user expectations",
+      "Frontier is a leading communications provider offering gigabit speeds to empower and connect millions of consumers and businesses in 25 states.",
     stacks: ["Wordpress", "CSS"],
     imageUrl: getfrontier,
   },
   {
     title: "Eagle Shield",
-    links: "https://ultrahiring.com/",
+    links: "ttps://eagleshield.com/",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Eagle Shield specializes in prioritizing energy upgrades so that homeowners get the biggest bang for their buck. Many homeowners like to have us do a couple of energy upgrades every year or so, while others like to do it all at once. Either way, we will give you, the homeowner the most efficient products to address your energy needs.",
     stacks: ["Wordpress", "CSS", "HTML"],
     imageUrl: eagleshield,
   },
   {
     title: "Localfyi",
-    links: "https://ultrahiring.com/",
+    links: "https://localfyi.com/",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    stacks: ["Wordpress"],
+      "LocalFYI is your go-to platform for community exploration. Whether you're a longtime resident or a newcomer, we provide insights into exciting events, local eateries, and unique experiences in your neighborhood",
+    stacks: ["React JS"],
     imageUrl: localfyi,
   },
   {
     title: "Breast Cancer Car Donation",
-    links: "https://ultrahiring.com/",
+    links: "https://www.cardonations4cancer.org/",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    stacks: ["Wordpress"],
+      "Breast Cancer Car Donations turns your old vehicles into meaningful support for nonprofit organizations that are battling cancer",
+    stacks: ["Wordpress", "Divi"],
     imageUrl: cardonation,
   },
   {
     title: "Wiki Roms",
-    links: "https://ultrahiring.com/",
+    links: "https://wikiroms.com/",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    stacks: ["Wordpress"],
+      "WikiRoms is a website dedicated to providing a comprehensive platform for downloading ROMs, enriched with informative wikis. Whether you're a retro gaming enthusiast or exploring classic titles, WikiRoms offers a vast library of ROMs, complemented by detailed wikis",
+    stacks: ["Wordpress", "Elementor"],
     imageUrl: wikiroms,
   },
 ];
