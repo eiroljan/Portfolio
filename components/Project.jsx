@@ -31,18 +31,21 @@ export const Projects = () => {
           <div className="lg:w-2/5 mx-10">
             {project.links ? (
               <Link href={project.links} passHref>
-                <h1 className="AgrandirHeavy decoration-solid	 mb-5">
+                <h1 className="AgrandirHeavy decoration-solid underline	 mb-5">
                   {project.title}
                 </h1>
               </Link>
             ) : (
-              <h1 className="AgrandirHeavy decoration-solid	 mb-5">
+              <h1 className="AgrandirHeavy decoration-solid underline	 mb-5">
                 {project.title}
               </h1>
             )}
             <p className="mb-4 text-base AgrandirRegular">
               {project.description}
             </p>
+            {project.stacks.map((stacks) => (
+              <h1>{stacks}</h1>
+            ))}
           </div>
         </div>
       ))}
