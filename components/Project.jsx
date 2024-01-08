@@ -43,9 +43,9 @@ export const Projects = () => {
             <p className="mb-4 text-base AgrandirRegular">
               {project.description}
             </p>
-            {project.stacks.map((stacks) => (
+            {/* {project.stacks.map((stacks) => (
               <h1>{stacks}</h1>
-            ))}
+            ))} */}
           </div>
         </div>
       ))}
