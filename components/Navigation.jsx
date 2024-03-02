@@ -12,11 +12,11 @@ export const Navigation = () => {
       <div className="p-5 relative flex items-center justify-between">
         <a
           href="/"
-          aria-label="Jubet"
-          title="Jubet"
+          aria-label="Eirol"
+          title="Eirol"
           className="inline-flex items-center"
         >
-          <span className="ml-2  tracking-wide  AgrandirHeavy">JUBET.</span>
+          <span className="ml-2  tracking-wide  AgrandirHeavy">Eirol.</span>
         </a>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
@@ -31,7 +31,7 @@ export const Navigation = () => {
               About
             </ScrollLink>
           </li>
-          <li>
+          {/* <li>
             <ScrollLink
               to="works"
               spy={true}
@@ -42,7 +42,7 @@ export const Navigation = () => {
             >
               Works
             </ScrollLink>
-          </li>
+          </li> */}
           <li>
             <ScrollLink
               to="contact"
@@ -124,7 +124,7 @@ export const Navigation = () => {
                         About
                       </ScrollLink>
                     </li>
-                    <li>
+                    {/* <li>
                       <ScrollLink
                         to="works"
                         spy={true}
@@ -135,7 +135,7 @@ export const Navigation = () => {
                       >
                         Work
                       </ScrollLink>
-                    </li>
+                    </li> */}
                     <li>
                       <ScrollLink
                         to="contact"

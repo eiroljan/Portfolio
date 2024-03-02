@@ -2,7 +2,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Jubet Aceberos | Web Developer",
+  title: "Eirol Coronado | Web Developer",
   description: "Web Developer Portfolio",
 };
 

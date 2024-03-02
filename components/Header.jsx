@@ -13,7 +13,7 @@ export const Header = () => {
         <FadeInAnimation>
           <div className="text-center">
             <p className="AgrandirRegular mb-3 text-xl lg:text-3xl">
-              Hey, I’m Jubet Aceberos
+              Hey, I’m Eirol Jan Coronado
             </p>
             <h4 className="AgrandirHeavy  text-2xl lg:text-5xl">
               WEB DEVELOPER

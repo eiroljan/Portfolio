@@ -9,6 +9,8 @@ export const Contact = () => {
       >
         <h1 className="AgrandirHeavy z-10 text-white-700 text-center">
           I can do all things through him who strengthens me
+          <hr />
+          <span>Philippians 4:13</span>
         </h1>
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50" />
       </div>
@@ -48,7 +50,7 @@ export const Contact = () => {
                 </h1>
               </div>
 
-              <p className="AgrandirRegular">Km 8.5 Matina Pangi Davao City</p>
+              <p className="AgrandirRegular">Prk 3 Adella Bermudez Village Apokon, Tagum City</p>
             </div>
             <div className="flex flex-col p-5">
               <div className="flex content-center mb-5">
@@ -73,7 +75,7 @@ export const Contact = () => {
                   <span>Email</span>
                 </h1>
               </div>
-              <p className="AgrandirRegular">jubet.sode.5@gmail.com</p>
+              <p className="AgrandirRegular">eiroljan19@gmail.com</p>
             </div>
             <div className="flex flex-col p-5">
               <div className="flex content-center mb-5">
@@ -98,7 +100,7 @@ export const Contact = () => {
                   <span>Phone Number</span>
                 </h1>
               </div>
-              <p className="AgrandirRegular">+63 951 801 3795</p>
+              <p className="AgrandirRegular">+63 905 556 6815</p>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import FadeInAnimation from "./animations/FadeInTopAnimation";
 export const About = () => {
   const handleButtonClick = (e) => {
     e.preventDefault();
-    window.open("/files/Jubet_Aceberos_Resume.pdf", "_blank");
+    window.open("/files/Resume.pdf", "_blank");
   };
 
   return (
@@ -23,17 +23,21 @@ export const About = () => {
               </h2>
 
               <p className="mb-4 text-base AgrandirRegular">
-                Hello there! I'm Jubet Aceberos, a passionate web developer with
-                a knack for turning ideas into reality through the power of
-                code. I thrive on challenges and take pride in crafting
-                interactive, user-friendly, and visually appealing websites
+                Hello there! I'm Jubet Aceberos, I hold a degree in Information Technology from 
+                University of the Immaculate Conception , where I honed my skills in HTML,CSS 
+                and frameworks. Over the years, I've gained valuable experience in my work that 
+                created a website and creating a corporate websites and ecommerce websites
               </p>
 
               <p className="mb-7 text-base AgrandirRegular">
-                I'm open to job opportunities where I can leverage my skills,
-                learn, and grow. If you have a fitting opportunity that aligns
-                with my skills and experiences, feel free to reach out at your
-                convenience.
+              Outside of work, you'll often find me social media. 
+              I believe in the importance of Embrace the present 
+              moment and make the most of every opportunity for joy and fulfillment. 
+              </p>
+
+              <p className="mb-7 text-base AgrandirRegular">
+              I'm excited to continue expanding my knowledge and skills in Web Development, 
+              pushing the boundaries of what I thought possible and making meaningful contributions along the way.. Feel free to send or message me on my email.
               </p>
 
               <button className="CustomButton" onClick={handleButtonClick}>
@@ -42,11 +46,11 @@ export const About = () => {
             </FadeInAnimation>
           </div>
           <div className="lg:w-1/2 flex justify-center">
-            <img
+            {/* <img
               className="object-cover object-center rounded shadow-lg	 lg:w-3/5  h-96	 sm:h-96 sm:w-full"
               src={"../images/backgrounds/Jubet.JPG"}
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </div>

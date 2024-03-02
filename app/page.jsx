@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <About />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
       <ScrollToTopButton />
     </main>
