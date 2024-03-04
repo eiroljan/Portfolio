@@ -6,7 +6,7 @@ export const Header = () => {
       <div
         className="bg-cover bg-no-repeat opacity-30 h-screen w-full"
         style={{
-          backgroundImage: 'url("/images/backgrounds/Clouds.png")',
+          backgroundImage: 'url("/images/backgrounds/bg-main.jpg")',
         }}
       ></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center py-10">

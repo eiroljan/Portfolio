@@ -46,11 +46,11 @@ export const About = () => {
             </FadeInAnimation>
           </div>
           <div className="lg:w-1/2 flex justify-center">
-            {/* <img
+            <img
               className="object-cover object-center rounded shadow-lg	 lg:w-3/5  h-96	 sm:h-96 sm:w-full"
-              src={"../images/backgrounds/Jubet.JPG"}
+              src={"../images/backgrounds/profile.jpg"}
               alt=""
-            /> */}
+            />
           </div>
         </div>
       </div>
