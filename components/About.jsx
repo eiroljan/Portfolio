@@ -23,7 +23,7 @@ export const About = () => {
               </h2>
 
               <p className="mb-4 text-base AgrandirRegular">
-                Hello there! I'm Jubet Aceberos, I hold a degree in Information Technology from 
+                Hello there! I'm Eirol Jan Coroando, I hold a degree in Information Technology from 
                 University of the Immaculate Conception , where I honed my skills in HTML,CSS 
                 and frameworks. Over the years, I've gained valuable experience in my work that 
                 created a website and creating a corporate websites and ecommerce websites
