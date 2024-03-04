@@ -85,12 +85,12 @@ export const Navigation = () => {
                   <div>
                     <a
                       href="/"
-                      aria-label="Jubet"
-                      title="Jubet"
+                      aria-label="Eirol"
+                      title="Eirol"
                       className="inline-flex items-center "
                     >
                       <span className="font-bold tracking-wide uppercase AgrandirHeavy">
-                        JUBET.
+                        Eirol.
                       </span>
                     </a>
                   </div>
