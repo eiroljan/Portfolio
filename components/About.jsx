@@ -6,7 +6,7 @@ import FadeInAnimation from "./animations/FadeInTopAnimation";
 export const About = () => {
   const handleButtonClick = (e) => {
     e.preventDefault();
-    window.open("/files/Resume.pdf", "_blank");
+    window.open("/files/Coronado-resume.pdf", "_blank");
   };
 
   return (
@@ -32,7 +32,7 @@ export const About = () => {
               <p className="mb-7 text-base AgrandirRegular">
               Outside of work, you'll often find me social media. 
               I believe in the importance of Embrace the present 
-              moment and make the most of every opportunity for joy and fulfillment. 
+              moment and make the most of every opportunity for joy and fulfillment.
               </p>
 
               <p className="mb-7 text-base AgrandirRegular">
@@ -48,7 +48,7 @@ export const About = () => {
           <div className="lg:w-1/2 flex justify-center">
             <img
               className="object-cover object-center rounded shadow-lg	 lg:w-3/5  h-96	 sm:h-96 sm:w-full"
-              src={"../images/backgrounds/profile.jpg"}
+              src={"../images/backgrounds/profile.jpg "}
               alt=""
             />
           </div>
