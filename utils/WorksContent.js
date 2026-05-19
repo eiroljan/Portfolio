@@ -5,7 +5,7 @@ import Zenorex from "@/public/images/works/Zenorex.png";
 import Muhlach from "@/public/images/works/Muhlach.png";
 import Evercare from "@/public/images/works/Evercare.png";
 import SmartIndustrial from "@/public/images/works/SmartIndustrial.png";
-import Kantigo from "@/public/images/works/kantigo.png";
+import Kantigo from "@/public/images/works/Kantigo.png";
 
 
 export const WorksContent = [
