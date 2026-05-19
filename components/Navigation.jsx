@@ -31,7 +31,7 @@ export const Navigation = () => {
               About
             </ScrollLink>
           </li>
-          {/* <li>
+          <li>
             <ScrollLink
               to="works"
               spy={true}
@@ -42,7 +42,7 @@ export const Navigation = () => {
             >
               Works
             </ScrollLink>
-          </li> */}
+          </li>
           <li>
             <ScrollLink
               to="contact"

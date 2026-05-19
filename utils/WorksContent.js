@@ -1,67 +1,68 @@
 // Images
-import ultrahiring from "@/public/images/works/ultrahiring.png";
-import secureathome from "@/public/images/works/secureathome.png";
-import getfrontier from "@/public/images/works/getfrontier.png";
-import eagleshield from "@/public/images/works/eagleshield.png";
-import localfyi from "@/public/images/works/localfyi.png";
-import cardonation from "@/public/images/works/cardonation.png";
-import wikiroms from "@/public/images/works/wikiroms.png";
+import Gracemay from "@/public/images/works/Gracemay.png";
+import Shosai from "@/public/images/works/Shosai.png";
+import Zenorex from "@/public/images/works/Zenorex.png";
+import Muhlach from "@/public/images/works/Muhlach.png";
+import Evercare from "@/public/images/works/Evercare.png";
+import SmartIndustrial from "@/public/images/works/SmartIndustrial.png";
+import Kantigo from "@/public/images/works/kantigo.png";
+
 
 export const WorksContent = [
   {
-    title: "Ultra Hiring",
-    links: "https://ultrahiring.com/",
+    title: "Grace May",
+    links: "https://gracemaypeople.com/",
     description:
-      "An innovative hiring platform using AI for smarter recruitment. Features a unique interview setup with ChatGPT guidance, automated candidate qualification, and access to a network of top talent with diverse question templates. Streamline your hiring process and make informed decisions effortlessly.",
-    stacks: ["Next JS", "Firebase"],
-    imageUrl: ultrahiring,
-  },
-  {
-    title: "Secure At Home",
-    links: "https://secureathome.com/",
-    description:
-      "American District Telegraph (ADT) Founder Edward Callahan created a telegraph-based call-box to signal for assistance to a central office. He quickly connected 50 other homes in the neighborhood, creating the first residential security system network.",
+      "Grace May, a UK-based recruitment and staffing consultancy specializing in technology, digital, legal, and energy-sector hiring.",
     stacks: ["Wordpress", "Divi Builder"],
-    imageUrl: secureathome,
+    imageUrl: Gracemay,
   },
   {
-    title: "Get Frontier Specials",
-    links: "https://www.frontierspecials.com/",
+    title: "SHOSAI",
+    links: "https://shosaistore.com/",
     description:
-      "Frontier is a leading communications provider offering gigabit speeds to empower and connect millions of consumers and businesses in 25 states.",
-    stacks: ["Wordpress", "CSS"],
-    imageUrl: getfrontier,
+      "Shosai Attire is streetwear with a refined edge. We’re taking the roots of classic sports style and sharpening the details - keeping it effortless but elevated. “Attire” isn’t just a name; it’s a shift. A step forward. A balance of raw energy and sophistication.",
+    stacks: ["Shopify"],
+    imageUrl: Shosai,
   },
   {
-    title: "Eagle Shield",
-    links: "ttps://eagleshield.com/",
+    title: "Zenorex",
+    links: "https://www.zenorexmarketing.com/",
     description:
-      "Eagle Shield specializes in prioritizing energy upgrades so that homeowners get the biggest bang for their buck. Many homeowners like to have us do a couple of energy upgrades every year or so, while others like to do it all at once. Either way, we will give you, the homeowner the most efficient products to address your energy needs.",
-    stacks: ["Wordpress", "CSS", "HTML"],
-    imageUrl: eagleshield,
+      "Zenorex Marketing Corporation has been the exclusive Philippine distributor of all Sentry®Safe products since 1995. Sentry®Safe, the pioneer and world leading manufacturer of fire-resistant and security storage for home and office use, is an affiliate of the Master Lock Company LLC.",
+    stacks: ["Laravel", "Bootstrap"],
+    imageUrl: Zenorex,
   },
   {
-    title: "Localfyi",
-    links: "https://localfyi.com/",
+    title: "Muhlach",
+    links: "https://www.muhlach.com.ph/",
     description:
-      "LocalFYI is your go-to platform for community exploration. Whether you're a longtime resident or a newcomer, we provide insights into exciting events, local eateries, and unique experiences in your neighborhood",
-    stacks: ["React JS"],
-    imageUrl: localfyi,
+      "Muhlach Bakery, a Filipino family-owned bakery business best known for its ensaymada products.",
+    stacks: ["Laravel", "Bootstrap"],
+    imageUrl: Muhlach,
   },
   {
-    title: "Breast Cancer Car Donation",
-    links: "https://www.cardonations4cancer.org/",
+    title: "Evercare",
+    links: "https://evercaregroup.com/",
     description:
-      "Breast Cancer Car Donations turns your old vehicles into meaningful support for nonprofit organizations that are battling cancer",
-    stacks: ["Wordpress", "Divi"],
-    imageUrl: cardonation,
+      "The Evercare Group believes access to healthcare is a fundamental right for everyone, so it invests in emerging markets to bring private, quality driven healthcare to meet the needs of local people.",
+    stacks: ["Wordpress", 'Divi Builder'],
+    imageUrl: Evercare,
   },
   {
-    title: "Wiki Roms",
-    links: "https://wikiroms.com/",
+    title: "Smart Industrial",
+    links: "hhttps://smartindustrial.com.au/",
     description:
-      "WikiRoms is a website dedicated to providing a comprehensive platform for downloading ROMs, enriched with informative wikis. Whether you're a retro gaming enthusiast or exploring classic titles, WikiRoms offers a vast library of ROMs, complemented by detailed wikis",
+      "Smart Industrial is Australia’s premium mechanical and electrical labour hire company in Parramatta, NSW. We provide skilled workforce solutions to the industrial sector, offering temporary and permanent workers. Whether you need short or long-term labour solutions, Smart Industrial delivers top‑tier talent to keep your operations running smoothly.",
     stacks: ["Wordpress", "Elementor"],
-    imageUrl: wikiroms,
+    imageUrl: SmartIndustrial,
+  },
+  {
+    title: "Kantigo Sports",
+    links: "",
+    description:
+      "KantiGo is a leading provider of Multipurpose Video Scoreboard Systems, delivering world class solutions that transform sports venues into dynamic, engaging arenas. From four sided center-hung scoreboards to single-face wall-mounted displays, we design and develop scoreboard displays tailored for schools, gyms, arenas, and multi-use facilities.",
+    stacks: ["Next Js", "Electron", "Node JS", "WebSocket"],
+    imageUrl: Kantigo,
   },
 ];
